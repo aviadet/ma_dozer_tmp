@@ -1,4 +1,3 @@
-from ma_dozer.configs.navigation_config import NavigationConfig
 from ma_dozer.configs.nodes_config import Topics, CameraNode, AlgoNode, DozerNode, DumperNode
 from ma_dozer.configs.pydantic_config import BaseConfig
 

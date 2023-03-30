@@ -73,4 +73,3 @@ class Logger:
     def log_camera_est(self, camera_meas: Pose):
         self.camera_file.write(camera_meas.to_log_str() + '\n')
         self.camera_file.flush()
-
